@@ -15,7 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           I'm a Software Engineer. Check out my LinkedIn
+           I'm a Software Engineer. Check out my LinkedIn 
+           <p>
+            About me
+           </p>
         </a>
       </header>
     </div>
