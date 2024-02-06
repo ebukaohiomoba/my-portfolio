@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import Ebuka from '../../assets/images/ebuka.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faAtom, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 const Sidebar = () => (
@@ -23,6 +24,18 @@ const Sidebar = () => (
      <NavLink exact ="true" activeclassname = "active" className = "project-link" to="/project">
         <FontAwesomeIcon icon={faAtom} color='#4d4d4e'></FontAwesomeIcon>
      </NavLink>
+     <ul>
+        <li>
+            <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/chukwuebuka-ohiomoba">
+            <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+        </li>
+        <li>
+            <a target='_blank' rel= "noreferrer" href="https://github.com/ebukaohiomoba">
+            <FontAwesomeIcon icon={faGithub} />
+            </a>
+        </li>
+     </ul> 
 </nav>
 </div>
     )
