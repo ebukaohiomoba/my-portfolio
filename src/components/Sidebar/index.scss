@@ -46,6 +46,16 @@ nav{
         text-align: center;
         list-style: none;
         margin:0;
+
+        li {
+            a {
+                padding: 7px 0;
+            }
+
+            &:hover svg{
+                color: bisque;
+            }
+        }
     }
 
 }
