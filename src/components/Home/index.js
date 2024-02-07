@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Ebuka from '../../assets/images/ebuka.png';
 import './index.scss';
 
@@ -9,8 +10,8 @@ const Home = () => {
                 <h1>Hi, <br>
                 </br>I'm<br>
                 </br> A <br></br></h1>
-                <h2>Front End Developer and Data Analyst</h2>
-                <img src={Ebuka} alt='developer' />
+                <h2>Software Engineer</h2>
+                <Link to= "/contact" className='flat-button'>Contact Me</Link>
             </div>
         </div>
     );
