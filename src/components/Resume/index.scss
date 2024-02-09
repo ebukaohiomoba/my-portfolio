@@ -1,0 +1,27 @@
+.text-area{
+    position:absolute;
+    left: 30%;
+    top: 50%;
+    transform:translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+
+        img{
+            width: 80px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}

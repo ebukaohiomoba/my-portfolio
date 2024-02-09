@@ -9,7 +9,7 @@ const Home = () => {
             <div className="text-area">
                 <h1>Hi, <br>
                 </br>I'm<br>
-                </br> A <br></br></h1>
+                </br> a <br></br></h1>
                 <h2>Software Engineer</h2>
                 <Link to= "/contact" className='flat-button'>Contact Me</Link>
             </div>
