@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Ebuka from '../../assets/images/ebuka.png';
 import './index.scss';
 
 const Home = () => {
