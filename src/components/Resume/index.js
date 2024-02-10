@@ -4,40 +4,43 @@ const Resume = () => {
   return (
     <div className='text-area'>
     <div className="resume">
-      <h2>Resume</h2>
+      <h1>Resume</h1>
       <div className="resume-section">
-        <h3>Education</h3>
+        <h2>Education</h2>
+        <p>
         <ul>
           <li>
-            <strong>Degree:</strong> Your Degree
+            <strong>Degree:</strong>Bachelor of Science Applied information management systems
           </li>
           <li>
-            <strong>Institution:</strong> Your University
+            <strong>Institution:</strong> Loyola Marymount University
           </li>
           <li>
-            <strong>Year:</strong> Graduation Year
+            <strong>Year:</strong> 2018
           </li>
+          
         </ul>
+        </p>
       </div>
 
       <div className="resume-section">
-        <h3>Experience</h3>
+        <h2>Experience</h2>
         <ul>
           <li>
-            <strong>Position:</strong> Your Position
+            <strong>Position:</strong> Data Analyst
             <br />
-            <strong>Company:</strong> Company Name
+            <strong>Company:</strong> GoBankingRates
             <br />
-            <strong>Duration:</strong> Duration of Employment
+            <strong>Duration:</strong> April 2022 - Present
             <br />
-            <strong>Description:</strong> Description of your role
+            <strong>Description:</strong> Description of role
           </li>
           {/* Add more experience items as needed */}
         </ul>
       </div>
 
       <div className="resume-section">
-        <h3>Skills</h3>
+        <h2>Skills</h2>
         <ul>
           <li>Skill 1</li>
           <li>Skill 2</li>
