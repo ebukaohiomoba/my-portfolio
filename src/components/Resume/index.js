@@ -1,6 +1,6 @@
 import './index.scss'
 
-const Resume = () => {
+const Contact = () => {
   return (
     <div className='text-area'>
     <div className="resume">
@@ -55,4 +55,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Contact;
